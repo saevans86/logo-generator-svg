@@ -1,8 +1,8 @@
 const fs = require('fs');
-const color = require('./lib/colors');
 const renderSVG = require('./lib/shapes');
 const inquirer = require('inquirer');
 const svg = require('./node_modules/@svgdotjs/svg.js');
+
 
 
 async function writeTofile() {
