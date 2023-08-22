@@ -1,10 +1,7 @@
 const fs = require('fs');
 const renderSVG = require('./lib/shapes');
 const inquirer = require('inquirer');
-const svg = require('./node_modules/@svgdotjs/svg.js');
-
-
-
+// const svg = require('./node_modules/@svgdotjs/svg.js');
 async function writeTofile() {
   try {
     const questions = await inquirer.prompt([
@@ -34,7 +31,7 @@ async function writeTofile() {
     ]);
 
     const userResponse = renderSVG(questions);
-    fs.writeFileSync('./Assets/SVG.svg', userResponse);
+    fs.writeFileSync('./Assets/logo.svg', userResponse);
   } catch (error) {
     console.error(error);
   }
