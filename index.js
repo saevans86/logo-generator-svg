@@ -23,7 +23,7 @@ async function writeTofile() {
         type: 'input',
         name: 'textColor',
         message:
-          'Please enter a color keyword or hexadecimal number for the text color',
+          'Please enter a color keyword or hexadecimal number for the text color.',
       },
       {
         type: 'list',
