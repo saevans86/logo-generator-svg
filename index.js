@@ -1,7 +1,6 @@
 const fs = require('fs');
 const renderSVG = require('./lib/shapes');
 const inquirer = require('inquirer');
-// const svg = require('./node_modules/@svgdotjs/svg.js');
 async function writeTofile() {
   try {
     const questions = await inquirer.prompt([
