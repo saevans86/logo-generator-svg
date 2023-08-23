@@ -1,6 +1,7 @@
 const fs = require('fs');
 const renderSVG = require('./lib/shapes');
 const inquirer = require('inquirer');
+
 async function writeTofile() {
   try {
     const questions = await inquirer.prompt([
