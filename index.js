@@ -9,6 +9,13 @@ async function writeTofile() {
         type: 'input',
         name: 'letters',
         message: 'Please enter up to three characters for the logo.',
+        validate: function (input) {
+          if (input.length > 3) {
+            return 'Please enter up to three characters';
+          }
+          const done = this.async();
+          done(null, true);
+        },
       },
       {
         type: 'input',
