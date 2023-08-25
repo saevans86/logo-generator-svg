@@ -1,3 +1,3 @@
-<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"><circle cx="95" cy="95" r="90" fill="green"/>
-        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="blue">
-        <tspan x="95" y="100" font-family="Verdana" font-size="70">uuu</tspan></text></svg>
+<svg width="300" height="200" xmlns="http://www.w3.org/2000/svg"><rect x="5" y="5" width="175" height="175"  fill="green"/>
+        <text x="50%" y="50%" dominant-baseline="middle" text-anchor="middle" fill="pink">
+        <tspan x="90" y="100" font-family="Verdana" font-size="75">SAM</tspan></text></svg>
