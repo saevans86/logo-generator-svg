@@ -8,7 +8,12 @@ logo-generator-svg
 ## Description 
 This project takes user input from inquirer, and creates a custom SVG file. 
 
+My motivation for this project was to build something that was easy on the eyes, simple, and functional. I started this project thinking it'd be as difficult as my readme generator, but with learning the SVG rendering, it turned out to be more complex than I anticipated, especially when adding in the testing functions for the shapes/colors.  
+I feel like this generator solved the issue of quick accessibility and needing to use a 3rd party web site, or even the use of a designer.  I definitely think some cooler graphic options can be added, which I may implement later since there's so many ways to design a SVG file.  
 
+With my initial expectations of this project being simple and too closely related to the readme generator, I learned that there were so many more elements to this project since I was no longer just adding user input and text to a page, rather creating shapes based on formulas I'm still not sure I entirely understand. I spent a good deal of time trying to get my polygon to sit at the upper left hand corner, and implemented the use of viewbox, however it broke the entire design of what should be pretty simple, so I've still got more experience needed in that regard. 
+
+The other thing I spent quite a bit of time on was my initial testing functions, and managed to second guess myself a lot on whether it was actually "testing" and not just returning "true/false" because I told it to, so I reached out to ASK BCS (service provided by the school), and was reassured that what I was doing was valid, but well over, yet still missing the base expectation of the projeect, nonetheless the testing was enjoyable, and really got my brain moving.
 
 
 
@@ -29,12 +34,21 @@ nodejs along with any other code editing software should run the contents of thi
 ## Usage 
 To generate a SVG file, open your terminal from the main folder and type in node index.js then follow the prompts for how you would like your SVG to appear, then navigate to the folder assets and locate logo.svg. To run jest, you will need to navigate to the lib folder and type in npm run test.
 
+This SVG was created by the logo generator: 
+
+![logo](https://github.com/saevans86/logo-generator-svg/assets/130856120/c01ed112-5392-456a-a74f-11b7695c2a36)
+
+This video shows the functionality of the logo generator with a quick walk through, as well as tests showing the shape/color tests 
+
+
+https://github.com/saevans86/logo-generator-svg/assets/130856120/4a1411ad-e210-4c3b-af6f-03e4e0a287ed
+
 
 
     
 
 ## Credits 
-I used some of the code from my previous project readme generator, would also like to mention ask BCS as well as the TA's for providing insight and feedback!
+MDN, W3, Stack, but would also like to mention ask BCS as well as the TA's for providing insight and feedback!
 
 
 
