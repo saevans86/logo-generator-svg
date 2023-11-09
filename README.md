@@ -43,6 +43,7 @@ This video shows the functionality of the logo generator with a quick walk throu
 
 https://github.com/saevans86/logo-generator-svg/assets/130856120/4a1411ad-e210-4c3b-af6f-03e4e0a287ed
 
+![Screenshot 2023-11-09 044501](https://github.com/saevans86/logo-generator-svg/assets/130856120/00acc520-78ce-450e-adf0-321ea30b942e)
 
 
     
